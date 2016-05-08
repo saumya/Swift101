@@ -37,6 +37,12 @@ class MyClass {
         print(s)
         return s
     }
+    // _ makes it possible for non-first arguments
+    func fullNameWithNoExternalisation(f:String, _ l:String) -> String {
+        let s = f+l
+        print(s)
+        return s
+    }
 }
 //
 class MyClass2 :MyClass{

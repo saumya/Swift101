@@ -29,6 +29,7 @@ class ViewController: NSViewController {
         // calling methods
         obj2.fullName("Love", last: "Swift")
         obj2.fullNameOf(firstName: "Love", lastName: "Swift Functions!")
+        obj2.fullNameWithNoExternalisation("Swift ", "Function love with NO externalisation !")
     }
 
     override var representedObject: AnyObject? {
