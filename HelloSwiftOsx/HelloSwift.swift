@@ -27,6 +27,16 @@ class MyClass {
     func getName() -> String {
         return self.name
     }
+    func fullName(first:String,last:String) -> String {
+        let f:String = first + last
+        print(f)
+        return f
+    }
+    func fullNameOf(firstName f:String, lastName l:String) -> String {
+        let s:String = f+l
+        print(s)
+        return s
+    }
 }
 //
 class MyClass2 :MyClass{

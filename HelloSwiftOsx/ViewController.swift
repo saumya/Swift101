@@ -26,6 +26,9 @@ class ViewController: NSViewController {
         print(obj2.getName())
         obj2.aTwo()
         obj2.aThree()
+        // calling methods
+        obj2.fullName("Love", last: "Swift")
+        obj2.fullNameOf(firstName: "Love", lastName: "Swift Functions!")
     }
 
     override var representedObject: AnyObject? {
