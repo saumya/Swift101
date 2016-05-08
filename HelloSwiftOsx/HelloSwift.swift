@@ -28,3 +28,9 @@ class MyClass {
         return self.name
     }
 }
+//
+class MyClass2 :MyClass{
+    func aNewFunction() {
+        print("aNewFunction")
+    }
+}
