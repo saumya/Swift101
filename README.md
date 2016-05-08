@@ -49,6 +49,6 @@ func silly() {
    - Module scope
    - File scope
    - Object Declaration scope
-   - {} scope
+   - {} scope / Curly brace scope
 
 9. 	By default, your app is a module and hence a namespace.  That namespace’s name is, the name of the app.
