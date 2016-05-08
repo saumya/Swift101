@@ -33,4 +33,10 @@ class MyClass2 :MyClass{
     func aNewFunction() {
         print("aNewFunction")
     }
+    func aTwo()->(){
+        print("A function without return type")
+    }
+    func aThree() -> Void {
+        print("A function without return type")
+    }
 }

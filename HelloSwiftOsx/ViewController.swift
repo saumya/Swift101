@@ -24,6 +24,8 @@ class ViewController: NSViewController {
         let obj2:MyClass2 = MyClass2();
         obj2.aNewFunction()
         print(obj2.getName())
+        obj2.aTwo()
+        obj2.aThree()
     }
 
     override var representedObject: AnyObject? {
