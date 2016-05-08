@@ -52,3 +52,4 @@ func silly() {
    - {} scope / Curly brace scope
 
 9. 	By default, your app is a module and hence a namespace.  That namespace’s name is, the name of the app.
+10. Function signature `(Int, Int) -> Int`
