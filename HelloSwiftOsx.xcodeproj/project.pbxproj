@@ -12,6 +12,7 @@
 		C51BC8E41CDF139800FB7B2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C51BC8E31CDF139800FB7B2D /* Assets.xcassets */; };
 		C51BC8E71CDF139800FB7B2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C51BC8E51CDF139800FB7B2D /* Main.storyboard */; };
 		C51BC8F01CDF1B8200FB7B2D /* HelloSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51BC8EF1CDF1B8200FB7B2D /* HelloSwift.swift */; };
+		C51BC8F31CE10CAB00FB7B2D /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51BC8F21CE10CAB00FB7B2D /* Animal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C51BC8E61CDF139800FB7B2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C51BC8E81CDF139800FB7B2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C51BC8EF1CDF1B8200FB7B2D /* HelloSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelloSwift.swift; sourceTree = "<group>"; };
+		C51BC8F21CE10CAB00FB7B2D /* Animal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Animal.swift; path = myPAck/Animal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		C51BC8DE1CDF139800FB7B2D /* HelloSwiftOsx */ = {
 			isa = PBXGroup;
 			children = (
+				C51BC8F11CE10C6600FB7B2D /* myPack */,
 				C51BC8DF1CDF139800FB7B2D /* AppDelegate.swift */,
 				C51BC8E11CDF139800FB7B2D /* ViewController.swift */,
 				C51BC8E31CDF139800FB7B2D /* Assets.xcassets */,
@@ -62,6 +65,14 @@
 				C51BC8EF1CDF1B8200FB7B2D /* HelloSwift.swift */,
 			);
 			path = HelloSwiftOsx;
+			sourceTree = "<group>";
+		};
+		C51BC8F11CE10C6600FB7B2D /* myPack */ = {
+			isa = PBXGroup;
+			children = (
+				C51BC8F21CE10CAB00FB7B2D /* Animal.swift */,
+			);
+			name = myPack;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C51BC8E21CDF139800FB7B2D /* ViewController.swift in Sources */,
+				C51BC8F31CE10CAB00FB7B2D /* Animal.swift in Sources */,
 				C51BC8F01CDF1B8200FB7B2D /* HelloSwift.swift in Sources */,
 				C51BC8E01CDF139800FB7B2D /* AppDelegate.swift in Sources */,
 			);
